@@ -121,7 +121,7 @@ import {ItemDetailsPage} from '../item-details/item-details';
 export class ListPage {
   // provide Angular with metadata about things it should inject in the constructor
   static get parameters() {
-    return [[NavController], [NavParams]];
+    return [NavController, NavParams];
   }
 
   constructor(nav, navParams) {
